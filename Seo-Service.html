@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional SEO services by MAK Digital Marketing Agency. Boost your rankings, drive organic traffic, and dominate search results with our proven SEO strategies and techniques.">
+    <meta name="keywords" content="SEO services, search engine optimization, organic traffic, keyword research, on-page SEO, off-page SEO, technical SEO, local SEO, SEO audit">
+    <meta name="author" content="MAK Digital Marketing Agency">
+    <meta property="og:title" content="Professional SEO Services - MAK Digital Marketing Agency">
+    <meta property="og:description" content="Transform your online visibility with expert SEO services. Proven strategies to rank higher and drive qualified organic traffic.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%232563eb' rx='20'/><text x='50' y='70' font-size='60' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial, sans-serif'>M</text></svg>">
+    <title>Professional SEO Services - MAK Digital Marketing Agency</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #f59e0b;
+            --success-color: #10b981;
+            --dark-color: #1f2937;
+            --light-color: #f9fafb;
+            --text-color: #374151;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .cta-button {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--white);
+            padding: 150px 0 100px;
+            margin-top: 70px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>');
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-features {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-feature {
+            text-align: center;
+        }
+
+        .hero-feature-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Overview Section */
+        .overview {
+            padding: 100px 0;
+            background: var(--white);
+        }
+
+        .overview-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .overview-text h2 {
+            font-size: 2.5rem;
+            color: var(--dark-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .overview-text p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .overview-highlights {
+            background: var(--light-color);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .overview-highlights h3 {
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+
+        .overview-highlights ul {
+            list-style: none;
+        }
+
+        .overview-highlights li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .overview-highlights li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-color);
+            font-weight: bold;
+        }
+
+        /* Services Grid */
+        .seo-services {
+            padding: 100px 0;
+            background: var(--light-color);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-color);
+            margin-bottom: 4rem;
+            font-size: 1.1rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: var(--white);
+            margin-bottom: 1.5rem;
+        }
+
+        .service-card h3 {
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .service-card p {
+            color: var(--text-color);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .service-card ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .service-card li {
+            padding: 0.3rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-color);
+        }
+
+        .service-card li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+
+        /* Process Section */
+        .process {
+            padding: 100px 0;
+            background: var(--white);
+        }
+
+        .process-timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 4rem auto 0;
+        }
+
+        .process-step {
+            display: grid;
+            grid-template-columns: 1fr 80px 1fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+            align-items: center;
+        }
+
+        .process-step:nth-child(even) .step-content:first-child {
+            order: 3;
+        }
+
+        .step-content {
+            background: var(--light-color);
+            padding: 2rem;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 2rem;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+        }
+
+        .step-content h3 {
+            color: var(--dark-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .step-content p {
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            padding: 100px 0;
+            background: var(--light-color);
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .pricing-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .pricing-card.featured {
+            border: 3px solid var(--primary-color);
+            transform: scale(1.05);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            background: var(--accent-color);
+            color: var(--white);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .pricing-card h3 {
+            color: var(--dark-color);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .price {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin: 1.5rem 0;
+        }
+
+        .price span {
+            font-size: 1.2rem;
+            color: var(--text-color);
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .pricing-features li {
+            padding: 0.7rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            border-bottom: 1px solid var(--light-color);
+        }
+
+        .pricing-features li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-color);
+            font-weight: bold;
+        }
+
+        .pricing-button {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .pricing-button:hover {
+            background: var(--secondary-color);
+        }
+
+        /* FAQ Section */
+        .faq {
+            padding: 100px 0;
+            background: var(--white);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 3rem auto 0;
+        }
+
+        .faq-item {
+            background: var(--light-color);
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--dark-color);
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e5e7eb;
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem 1.5rem;
+            color: var(--text-color);
+            line-height: 1.8;
+            display: none;
+        }
+
+        .faq-answer.active {
+            display: block;
+        }
+
+        .faq-icon {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-icon.active {
+            transform: rotate(45deg);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-primary {
+            background: var(--white);
+            color: var(--primary-color);
+            padding: 1rem 2.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+
+        .cta-primary:hover {
+            transform: scale(1.05);
+        }
+
+        .cta-secondary {
+            background: transparent;
+            color: var(--white);
+            padding: 1rem 2.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            border: 2px solid var(--white);
+            transition: background 0.3s ease;
+        }
+
+        .cta-secondary:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-color);
+            color: var(--white);
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: var(--white);
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            opacity: 1;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            opacity: 0.8;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .overview-content {
+                grid-template-columns: 1fr;
+            }
+
+            .process-step {
+                grid-template-columns: 1fr;
+            }
+
+            .step-content:first-child {
+                order: 1 !important;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">MAK</a>
+            <ul class="nav-links">
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional SEO Services</h1>
+                <p>Transform your online visibility with data-driven SEO strategies that deliver sustainable rankings, increased organic traffic, and measurable business growth</p>
+                <a href="#contact" class="cta-button" style="display: inline-block; margin-top: 1rem;">Start Your SEO Journey</a>
+                
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <span class="hero-feature-number">250%+</span>
+                        <span>Average Traffic Increase</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="hero-feature-number">90 Days</span>
+                        <span>To See Results</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="hero-feature-number">500+</span>
+                        <span>Keywords Ranked</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="overview">
+        <div class="container">
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h2>Why SEO is Essential for Your Business</h2>
+                    <p>Search Engine Optimization is no longer optional in today's digital landscape. With over 93% of online experiences beginning with a search engine, your potential customers are actively searching for products and services like yours right now.</p>
+                    <p>Our comprehensive SEO services are designed to position your business at the top of search results, ensuring you capture high-intent traffic that converts into loyal customers. We combine technical expertise, content excellence, and strategic link building to create sustainable organic growth.</p>
+                    <p>Unlike paid advertising that stops the moment you stop paying, SEO builds long-term equity for your brand. Every optimized page, every quality backlink, and every improvement to your site architecture contributes to a foundation that continues delivering results month after month, year after year.</p>
+                </div>
+                <div class="overview-highlights">
+                    <h3>What Makes Our SEO Different</h3>
+                    <ul>
+                        <li>White-hat techniques that comply with Google's guidelines</li>
+                        <li>Transparent reporting with real-time dashboard access</li>
+                        <li>Dedicated SEO strategist assigned to your account</li>
+                        <li>Custom strategies tailored to your industry and competition</li>
+                        <li>Focus on ROI and business metrics, not just rankings</li>
+                        <li>Continuous optimization based on performance data</li>
+                        <li>Regular communication and strategy sessions</li>
+                        <li>No long-term contracts or hidden fees</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO Services Grid -->
+    <section class="seo-services">
+        <div class="container">
+            <h2 class="section-title">Comprehensive SEO Solutions</h2>
+            <p class="section-subtitle">Every aspect of SEO covered to ensure maximum visibility and performance</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>Technical SEO Audit</h3>
+                    <p>We conduct comprehensive technical audits to identify and fix issues that prevent search engines from properly crawling and indexing your website.</p>
+                    <ul>
+                        <li>Site speed optimization</li>
+                        <li>Mobile responsiveness testing</li>
+                        <li>XML sitemap creation</li>
+                        <li>Robots.txt optimization</li>
+                        <li>Schema markup implementation</li>
+                        <li>HTTPS security setup</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Keyword Research & Strategy</h3>
+                    <p>Our data-driven keyword research identifies high-value opportunities that balance search volume, competition, and commercial intent.</p>
+                    <ul>
+                        <li>Competitor keyword analysis</li>
+                        <li>Long-tail keyword discovery</li>
+                        <li>Search intent mapping</li>
+                        <li>Keyword difficulty assessment</li>
+                        <li>Monthly search volume analysis</li>
+                        <li>Seasonal trend identification</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📝</div>
+                    <h3>On-Page Optimization</h3>
+                    <p>We optimize every element of your web pages to ensure they're perfectly aligned with search engine ranking factors and user experience best practices.</p>
+                    <ul>
+                        <li>Title tag optimization</li>
+                        <li>Meta description writing</li>
+                        <li>Header tag structure</li>
+                        <li>Internal linking strategy</li>
+                        <li>Image optimization and alt text</li>
+                        <li>URL structure refinement</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">✍️</div>
+                    <h3>Content Creation & Optimization</h3>
+                    <p>Our experienced content team creates compelling, SEO-optimized content that engages readers while satisfying search engine requirements.</p>
+                    <ul>
+                        <li>Blog post writing</li>
+                        <li>Landing page copy</li>
+                        <li>Product descriptions</li>
+                        <li>Existing content optimization</li>
+                        <li>Content gap analysis</li>
+                        <li>E-E-A-T optimization</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔗</div>
+                    <h3>Link Building & Outreach</h3>
+                    <p>We build high-quality backlinks from authoritative websites using ethical, white-hat techniques that improve your domain authority.</p>
+                    <ul>
+                        <li>Guest posting opportunities</li>
+                        <li>Digital PR campaigns</li>
+                        <li>Broken link building</li>
+                        <li>Resource page outreach</li>
+                        <li>Competitor backlink analysis</li>
+                        <li>Link quality monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📍</div>
+                    <h3>Local SEO Services</h3>
+                    <p>Dominate local search results and attract nearby customers with our specialized local SEO strategies and Google Business Profile optimization.</p>
+                    <ul>
+                        <li>Google Business Profile setup</li>
+                        <li>Local citation building</li>
+                        <li>Review generation strategy</li>
+                        <li>Local keyword targeting</li>
+                        <li>NAP consistency checks</li>
+                        <li>Local content creation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">Our Proven SEO Process</h2>
+            <p class="section-subtitle">A systematic approach that delivers consistent, measurable results</p>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-content">
+                        <h3>Discovery & Audit</h3>
+                        <p>We begin with a comprehensive analysis of your current SEO performance, competitive landscape, and business objectives to create a customized strategy.</p>
+                    </div>
+                    <div class="step-number">1</div>
+                    <div class="step-content"></div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-content"></div>
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Strategy Development</h3>
+                        <p>Based on our findings, we develop a detailed SEO roadmap with specific tactics, timelines, and KPIs aligned with your business goals.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-content">
+                        <h3>Technical Implementation</h3>
+                        <p>Our team fixes technical issues, optimizes site architecture, and implements schema markup to ensure optimal crawlability and indexation.</p>
+                    </div>
+                    <div class="step-number">3</div>
+                    <div class="step-content"></div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-content"></div>
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Content & On-Page</h3>
+                        <p>We create and optimize content, refine meta tags, improve internal linking, and enhance user experience signals across your site.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-content">
+                        <h3>Link Building</h3>
+                        <p>We execute strategic outreach campaigns to build high-quality backlinks that boost your domain authority and rankings.</p>
+                    </div>
+                    <div class="step-number">5</div>
+                    <div class="step-content"></div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-content"></div>
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3>Monitor & Optimize</h3>
+                        <p>We continuously track performance, analyze data, and refine strategies to ensure sustained growth and maximum ROI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title">SEO Service Packages</h2>
+            <p class="section-subtitle">Flexible plans designed to meet businesses at every stage of growth</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$999<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>Up to 20 target keywords</li>
+                        <li>Technical SEO audit</li>
+                        <li>On-page optimization (10 pages)</li>
+                        <li>Monthly competitor analysis</li>
+                        <li>Content recommendations</li>
+                        <li>Monthly reporting</li>
+                        <li>Email support</li>
+                    </ul>
+                    <a href="#contact" class="pricing-button">Get Started</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3>Growth</h3>
+                    <div class="price">$1,999<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>Up to 50 target keywords</li>
+                        <li>Comprehensive technical audit</li>
+                        <li>On-page optimization (25 pages)</li>
+                        <li>4 blog posts per month</li>
+                        <li>Link building (15 backlinks/month)</li>
+                        <li>Local SEO optimization</li>
+                        <li>Bi-weekly reporting</li>
+                        <li>Phone & email support</li>
+                    </ul>
+                    <a href="#contact" class="pricing-button">Get Started</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$3,999<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>Unlimited target keywords</li>
+                        <li>Full technical SEO management</li>
+                        <li>On-page optimization (unlimited)</li>
+                        <li>8 blog posts per month</li>
+                        <li>Link building (30 backlinks/month)</li>
+                        <li>Advanced local SEO</li>
+                        <li>Weekly reporting & strategy calls</li>
+                        <li>Dedicated account manager</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <a href="#contact" class="pricing-button">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Everything you need to know about our SEO services</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How long does it take to see SEO results?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        SEO is a long-term investment that typically shows initial improvements within 60-90 days. Significant results usually appear within 4-6 months, with continued growth over time. The timeline varies based on competition, current site status, and industry dynamics.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What makes your SEO services different?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        We focus on transparent, white-hat techniques that deliver sustainable results. Our approach combines technical excellence, quality content creation, and strategic link building. We provide dedicated account managers, real-time reporting dashboards, and customize strategies based on your specific business goals and competitive landscape.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Do you guarantee first page rankings?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        While no ethical SEO agency can guarantee specific rankings (as search algorithms are controlled by Google), we do guarantee to implement proven strategies that improve your visibility. We focus on measurable metrics like organic traffic growth, keyword rankings improvements, and conversion rate optimization.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What industries do you specialize in?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        We have experience across multiple industries including e-commerce, healthcare, legal services, real estate, technology, and professional services. Our team adapts strategies to match industry-specific requirements, compliance needs, and competitive dynamics.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Can you help with local SEO?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Absolutely! Local SEO is one of our core specialties. We optimize Google Business Profiles, build local citations, implement location-specific content strategies, and help you dominate local search results and map listings in your target areas.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What reporting do you provide?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        We provide comprehensive monthly reports including keyword rankings, organic traffic metrics, backlink profile growth, technical SEO improvements, and ROI analysis. You also get 24/7 access to a real-time dashboard showing all key performance indicators.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <h2>Ready to Dominate Search Results?</h2>
+            <p>Let's discuss how our SEO expertise can transform your online visibility and drive sustainable business growth</p>
+            <div class="cta-buttons">
+                <a href="mailto:info@makagency.com" class="cta-primary">Schedule Free Consultation</a>
+                <a href="tel:+15551234567" class="cta-secondary">Call Us Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MAK Agency</h3>
+                    <p>Empowering businesses with innovative digital marketing solutions that drive growth and deliver measurable results.</p>
+                    <p style="margin-top: 1rem;"><strong>Email:</strong> info@makagency.com</p>
+                    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Address:</strong> 123 Digital Avenue, Tech City, TC 12345</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#seo-services">SEO Optimization</a></li>
+                        <li><a href="index.html#services">PPC Management</a></li>
+                        <li><a href="index.html#services">Social Media Marketing</a></li>
+                        <li><a href="index.html#services">Content Marketing</a></li>
+                        <li><a href="index.html#services">Web Design</a></li>
+                        <li><a href="index.html#services">Analytics & Reporting</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#testimonials">Case Studies</a></li>
+                        <li><a href="index.html#testimonials">Client Testimonials</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                       
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MAK Digital Marketing Agency. All rights reserved. | Delivering Excellence in Digital Marketing Since 2010</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFAQ(element) {
+            const answer = element.nextElementSibling;
+            const icon = element.querySelector('.faq-icon');
+            
+            // Close all other FAQs
+            document.querySelectorAll('.faq-answer').forEach(item => {
+                if (item !== answer) {
+                    item.classList.remove('active');
+                }
+            });
+            
+            document.querySelectorAll('.faq-icon').forEach(item => {
+                if (item !== icon) {
+                    item.classList.remove('active');
+                }
+            });
+            
+            // Toggle current FAQ
+            answer.classList.toggle('active');
+            icon.classList.toggle('active');
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.boxShadow = '0 5px 20px rgba(0,0,0,0.15)';
+            } else {
+                header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
